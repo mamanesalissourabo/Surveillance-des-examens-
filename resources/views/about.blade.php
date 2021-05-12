@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Ma nouvelle page Laravel</title>
+        <title>la page about</title>
 
     </head>
     <body >
-           <h1>Bonjour tout le monde </h1>
-           <p>Nous sommes le {{date('d/m/y')}} a {{date('h:i A')}} au maroc</p>
+           <h1>Vous pouvez apprendre d'avantage sur les frameworks </h1>
+           <p><a href="/">Revenir a la page d'accueil</a></p>
 
            <footer>
                <p>&copy; Copyright 2020 &middot; <a href="/about-us">a propos de nous</a>
