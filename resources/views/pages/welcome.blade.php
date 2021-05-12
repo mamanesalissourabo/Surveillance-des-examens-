@@ -8,6 +8,7 @@
 
     </head>
     <body >
+        <img src="images/panier.jpg" alt="image du panier" width="300"; heigth="200";>
            <h1>Bonjour tout le monde </h1>
            <p>Nous sommes le {{date('d/m/y')}} a {{date('h:i A')}} au maroc</p>
 
