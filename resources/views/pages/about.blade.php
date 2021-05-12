@@ -12,7 +12,9 @@
            <p><a href="/">Revenir a la page d'accueil</a></p>
 
            <footer>
+                @if(Route::is('about'))
                <p>&copy; Copyright 2020 &middot; <a href="/about-us">a propos de nous</a>
+                @endif
                </p>
            </footer>
     </body>
