@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages/welcome');
-});
+})->name("home");
 
 /*Route::get('/',function(){
     return view('SalissouPage');
@@ -23,4 +23,4 @@ Route::get('/', function () {
 */
 Route::get('/about-us',function(){
     return view('pages/about');
-});
+})->name("about");
